@@ -1,0 +1,47 @@
+
+  <title>Células</title>
+  <link rel="stylesheet" href="/css/celula.css">
+ 
+
+
+<body class="contato">
+
+  <button class="botão" onclick="window.location.href='/index.html'">Voltar</button>
+
+  <img class="img1" src="/img/logo 1000.jpg" alt="logo ieq">
+  <img class="img2" src="/img/logo 1000.jpg" alt="logo IEQ2">
+
+  <h1>Célula</h1>
+
+  <!-- Imagem 1 -->
+  <img class="celula-carlos" src="/img/celula.jpg" alt="celula carlos" onclick="mostrarTexto('textoCarlos')">
+  <div id="textoCarlos" class="texto">
+    <p class="p-carlos">
+      <strong>Célula Família com Propósito</strong><br>
+      Terça-feira - 19:00hs<br>
+      Rua da Abolição, 393 - Taquarussu.
+    </p>
+  </div>
+
+  <!-- Imagem 2 -->
+  <img class="celula-kids" src="/img/soldadinhos.jpg" alt="celula kids" onclick="mostrarTexto('textoKids')">
+  <div id="textoKids" class="texto">
+    
+    <p class="p-kids">
+      <strong>Célula Soldadinhos de Cristo</strong><br>
+      Célula - KIDS <br>
+      Sábado - 15:00hs<br>
+      Rua Travessa Corredor, 13 - Nha-nhá.
+    </p>
+  </div>
+
+  <!-- Script -->
+  <script>
+    function mostrarTexto(id) {
+      const texto = document.getElementById(id);
+      texto.style.display = texto.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>

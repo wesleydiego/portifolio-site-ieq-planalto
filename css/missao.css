@@ -1,0 +1,33 @@
+
+        body {
+            background-color: #c0793b;
+        }
+        h1 { padding-left: 600px;
+            color:white
+            
+        }
+
+        p {
+            color:white
+            
+
+        }
+        .missão {
+            font-size: 22px;
+            margin-left: 10px;
+        }
+        .imagem {
+            padding-left: 550px;
+        }
+        .botão {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 8px 16px;
+            border-radius: 10px;
+            background-color: #3d2410;
+            color: #c0793b;
+            font-size: large;
+            padding: 0.3%;
+            cursor: pointer;
+        }

@@ -77,7 +77,13 @@ h1 {
         transform: translate(-50%, -50%);
         border-radius: 3px;
         padding: 0.5%;
+       transition: all 0.1s ease;
       }
+
+      .texto {
+        display: none; /* Esconde por padrão */
+      }
+      
 
       .celula-kids {
         position: fixed;
@@ -101,5 +107,17 @@ h1 {
         border-radius: 3px;
         padding: 0.5%;
       }
+
+      .click-aqui {
+        background-color: #503113;
+  font-size: 18px;
+ text-align: center;
+ border: solid 5px #3f2710 ;
+ width:  calc(100% - 75%);
+ color: #fff;
+ 
+      }
+
+     
 
         

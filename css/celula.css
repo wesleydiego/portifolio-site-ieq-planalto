@@ -113,6 +113,22 @@ h1 {
   font-size: 18px;
  text-align: center;
  border: solid 5px #3f2710 ;
+
+          @media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
+
  width:  calc(100% - 75%);
  color: #fff;
   }

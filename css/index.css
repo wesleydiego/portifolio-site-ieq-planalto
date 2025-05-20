@@ -1,7 +1,17 @@
 * {
   background-color: #c0793b;
+  margin: 0px;
 }
 
+.link {
+  display:inline-block;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 20px;
+  text-align: center;
+  width: 1344px;
+  height: 60px;
+}
 
 
 nav, a {
@@ -11,9 +21,9 @@ nav, a {
 
 img { 
   width: 100%;
-  max-width: 1459px;
+  max-width: 1341px;
   height: 320px;
-  margin-left: 0;
+  margin-left: 0px;
   margin-top: 3px;
   border: 5px solid whitesmoke;
 }
@@ -27,20 +37,24 @@ h1 {
   width: 45%;
   color: #fff;
   margin: 0px auto; /* centraliza horizontalmente */
+  margin-left: 1px;
   box-sizing: border-box;
- float: left;
+  
+ 
 }
 
 p {
   background-color: #49290c;
   color: #fff;
   border: solid 5px #160e06;
-  width: 45%;
+  max-width: 45%;
   font-size: 18px;
-  margin: 10px auto;
+  margin: 0px;
   padding: 10px;
+  margin-right: 12px;
   box-sizing: border-box;
-  float: left;
+   display: inline-block;
+  
 }
 
 p:hover {
@@ -61,11 +75,10 @@ h1:hover {
   border: solid px #160e06 5px;
   width: 100%;
   max-width: 600px;
-  height: 502px;
-  /*border-radius: 12px;*/
-  margin: 0 auto;
-  /*display: inline-block; /* evita float para alinhar bem */
-  float: left;
+  height: 460px;
+  margin-left: 35px;
+  display: inline-block;
+  
 }
 
 /* Responsividade */
